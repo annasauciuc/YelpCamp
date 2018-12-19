@@ -4,6 +4,10 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
 var campgrounds = [{ name: "Salmon Creek", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" },
     { name: "Sanded Cream", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" },
+    { name: "Cerman Dean", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" }, { name: "Salmon Creek", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" },
+    { name: "Sanded Cream", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" },
+    { name: "Cerman Dean", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" }, { name: "Salmon Creek", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" },
+    { name: "Sanded Cream", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" },
     { name: "Cerman Dean", image: "https://floresdalia.com/wp-content/uploads/2018/07/love-image-lovely-images-photo-gallery-629721354-300x199.jpg" }
 ];
 app.set("view engine", "ejs");
